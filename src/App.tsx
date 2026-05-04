@@ -477,20 +477,20 @@ const SECTIONS: SectionDef[] = [
           </p>
           <span style={{
             fontFamily: F, fontSize: T.body, letterSpacing: "-0.01em", fontWeight: 600,
-            background: "linear-gradient(90deg, #FF6B00, #E8000D)",
+            background: "linear-gradient(90deg, #FFAA5C, #FF17E9)",
             WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
             display: "inline-flex", alignItems: "center", gap: 8,
           }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient id="sparkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#FF6B00" />
-                  <stop offset="100%" stopColor="#E8000D" />
+                  <stop offset="0%" stopColor="#FFAA5C" />
+                  <stop offset="100%" stopColor="#FF17E9" />
                 </linearGradient>
               </defs>
               <path d="M12 3c0 0 .8 3.5 2.5 5.5S19 11 19 11s-3.5.8-5.5 2.5S11 19 11 19s-.8-3.5-2.5-5.5S4 11 4 11s3.5-.8 5.5-2.5S12 3 12 3z" fill="url(#sparkGrad)" />
-              <path d="M19 3c0 0 .4 1.5 1.2 2.3S22 7 22 7s-1.5.4-2.3 1.2S18 10 18 10s-.4-1.5-1.2-2.3S15 7 15 7s1.5-.4 2.3-1.2S19 3 19 3z" fill="url(#sparkGrad)" opacity="0.8" />
-              <path d="M6 16c0 0 .3 1.2 1 1.8S9 19 9 19s-1.2.3-1.8 1S6 22 6 22s-.3-1.2-1-1.8S3 19 3 19s1.2-.3 1.8-1S6 16 6 16z" fill="url(#sparkGrad)" opacity="0.7" />
+              <path d="M19 3c0 0 .4 1.5 1.2 2.3S22 7 22 7s-1.5.4-2.3 1.2S18 10 18 10s-.4-1.5-1.2-2.3S15 7 15 7s1.5-.4 2.3-1.2S19 3 19 3z" fill="url(#sparkGrad)" opacity="0.85" />
+              <path d="M6 16c0 0 .3 1.2 1 1.8S9 19 9 19s-1.2.3-1.8 1S6 22 6 22s-.3-1.2-1-1.8S3 19 3 19s1.2-.3 1.8-1S6 16 6 16z" fill="url(#sparkGrad)" opacity="0.75" />
             </svg>
             Powered by sundayAI
           </span>
